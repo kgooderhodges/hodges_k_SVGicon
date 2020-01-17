@@ -1,0 +1,21 @@
+.img-wrapper {
+  display:inline-block;
+  width: 50%;
+}
+
+.img-wrapper > img {
+  width:35%;
+}
+
+.black-background {
+  background-color: black;
+}
+
+/*.st0{
+  fill:#333 !important;
+ }*/
+
+ /*#rGrain:hover, #lGrain:hover { fill: red;}*/
+
+#beerGraphic:hover #rGrain { fill:red; }
+#beerGraphic:hover #lGrain { fill:red; }
