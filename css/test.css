@@ -1,0 +1,29 @@
+/*same as document.querySelector*/
+body {
+  font-size: 14px;
+  padding: 1em;
+}
+
+/*em has a relationship to the body. it refers back to the body and uses the font size given*/
+main span {
+  padding: 0.75em 1em;
+  cursor: pointer;
+}
+
+.selected {
+  color: green;
+}
+
+/*used to show what was selected and can unselect it*/
+.selected::before {
+  content: "\2713";
+}
+
+object {
+  width: 8em;
+}
+
+
+.wrapper > * {
+  pointer-events: none; /*block mouse events on element children*/
+}
